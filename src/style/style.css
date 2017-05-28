@@ -1,0 +1,123 @@
+.navbar {
+    direction: rtl;
+    background: -webkit-linear-gradient(left, #194b93 0%, #215bb0 100%) !important;
+    background: -moz-linear-gradient(left, #194b93 0%, #215bb0 100%) !important;
+    background: -o-linear-gradient(left, #194b93 0%, #215bb0 100%) !important;
+    background: linear-gradient(to right, #194b93 0%, #215bb0 100%) !important;
+    height: 60px;
+}
+
+ul.navbar-nav {
+    padding: 10px 0;
+    width: 100px;
+}
+
+ul.navbar-nav i {
+    padding-top: 5px;
+}
+
+.navbar-brand {
+    width: 100px;
+    text-align: center;
+}
+
+.headerImg {
+    text-align: center;
+    padding: 5px
+}
+
+.content-box {
+    position: absolute;
+    height: 75%;
+    width: 75%;
+    left: 12.5%;
+}
+
+.folders-list {
+    /*top: 30%;
+  left: 50%;
+  right: 35%;
+  margin-top: -50px;
+  margin-left: -25%;*/
+    margin: auto;
+    padding: 10px;
+    /*margin-top: 10%;*/
+    margin-left: 100/6%;
+    overflow-x: hidden;
+    width: 66.6666%;
+    height: 100%;
+    max-height: 50%;
+    /*overflow-y: hidden;*/
+}
+
+.circle {
+    border-color: #569cd5;
+    color: blueviolet;
+    cursor: pointer;
+    margin-bottom: 8px;
+    background-color: #fafafa;
+    border-width: 4px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+    margin: 0 auto;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.folder {
+    border: 0.5px solid;
+    border-radius: 2em;
+    resize: both;
+    overflow: auto;
+    height: 50%;
+    position: relative;
+    width: 33.3333%;
+    display: inline-block;
+}
+
+.folder:after {
+    content: "";
+    display: block;
+}
+
+.folder p {
+    text-align: center;
+}
+
+.searchBar {
+    /*position: absolute;
+  top: 15%;
+  right: 50%;*/
+    border-radius: 2em;
+    direction: rtl;
+}
+
+input.searchBar {
+    /*
+  text-align: center;
+  direction: rtl;
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  padding: 12px 30px 12px 40px;
+  */
+    background-image: url('/public/searchicon.png');
+    background-position: right 0px top 10px;
+    background-repeat: no-repeat;
+    background-color: white;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.searchBox {
+    text-align: center;
+}
+
+input.searchBar:focus {
+    width: 100%;
+}
